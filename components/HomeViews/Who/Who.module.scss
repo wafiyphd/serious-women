@@ -1,0 +1,41 @@
+@import "../../../styles/globals";
+
+.mainContainer {
+  background-color: $blue;
+}
+
+.pattern {
+  float: right;
+  padding: 40px 40px 0 0;
+}
+
+.introHeader {
+  font-size: 60pt;
+  font-family: CenturyGothicBold;
+  text-transform: uppercase;
+  line-height: 72pt;
+  color: black;
+}
+
+.whoHeader {
+  font-size: 18pt;
+  font-family: RobotoBlack;
+  color: black;
+  background-color: $green;
+  text-transform: uppercase;
+  padding: 2px 5px;
+}
+
+.whoSubheader {
+  font-size: 70pt;
+  line-height: 58pt;
+  font-family: Abuget;
+  color: black;
+}
+
+.whoContent {
+  font-size: 18pt;
+  line-height: 32pt;
+  font-family: CenturyGothicBold;
+  color: black;
+}

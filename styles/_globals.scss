@@ -1,0 +1,39 @@
+$green: #b2ff14;
+$blue: #4bcfcf;
+$pink: #e51a8c;
+
+@font-face {
+  font-family: "Abuget";
+  src: url("/static/fonts/Abuget.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "RobotoBlack";
+  src: url("/static/fonts/Roboto-Black.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CenturyGothic";
+  src: url("/static/fonts/Century-Gothic.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CenturyGothicBold";
+  src: url("/static/fonts/Century-Gothic-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CenturyGothicItalic";
+  src: url("/static/fonts/Century-Gothic-Italic.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CenturyGothicBoldItalic";
+  src: url("/static/fonts/Century-Gothic-Bold-Italic.ttf") format("truetype");
+  font-display: swap;
+}

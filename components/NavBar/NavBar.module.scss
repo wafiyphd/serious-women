@@ -1,0 +1,11 @@
+@import "../../styles/globals";
+
+.navbar {
+  background-color: black;
+}
+
+.navbar a {
+  color: $green !important;
+  font-family: CenturyGothicBold;
+  font-size: 10pt;
+}

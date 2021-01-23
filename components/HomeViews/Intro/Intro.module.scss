@@ -1,0 +1,13 @@
+@import "../../../styles/globals";
+
+.mainContainer {
+  background-color: $green;
+}
+
+.introHeader {
+  font-size: 60pt;
+  font-family: CenturyGothicBold;
+  text-transform: uppercase;
+  line-height: 72pt;
+  color: black;
+}

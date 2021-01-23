@@ -1,0 +1,65 @@
+@import "../../../styles/globals";
+
+.mainContainer {
+  background-color: black;
+  background-image: url("/static/images/submitpattern.png");
+  background-size: cover;
+}
+
+.submitHeader {
+  font-size: 60pt;
+  line-height: 72pt;
+  font-family: CenturyGothicBold;
+  text-transform: uppercase;
+  color: $pink;
+}
+
+.submitSubheader {
+  font-size: 20pt;
+  line-height: 32pt;
+  font-family: CenturyGothicBold;
+  color: white;
+}
+
+.rectangle {
+  border: 16px solid $green;
+  background-color: black;
+  margin: 55px 0;
+}
+
+.button {
+  position: relative;
+  text-align: center;
+}
+
+.buttonText {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-family: RobotoBlack;
+  font-size: 16pt;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.buttonText:hover + .slantButton {
+  transition: 0.2s ease;
+  -webkit-transition: 0.2s ease;
+  -moz-transition: 0.2s ease;
+  -ms-transition: 0.2s ease;
+  transition: 0.2s ease;
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.slantButton:hover {
+  transition: 0.2s ease;
+  -webkit-transition: 0.2s ease;
+  -moz-transition: 0.2s ease;
+  -ms-transition: 0.2s ease;
+  transition: 0.2s ease;
+  cursor: pointer;
+  opacity: 80%;
+}
