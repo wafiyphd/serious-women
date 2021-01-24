@@ -1,5 +1,11 @@
 @import "../../../styles/globals";
 
+@media (max-width: 768px) {
+  .mainContainer p {
+    font-size: 80%;
+  }
+}
+
 .mainContainer {
   background-color: $green;
 }
@@ -10,4 +16,37 @@
   text-transform: uppercase;
   line-height: 72pt;
   color: black;
+}
+
+.imageDiv {
+  position: relative;
+  text-align: center;
+}
+
+.scrollText {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: CenturyGothicBold;
+  font-size: 18pt;
+  line-height: 20pt;
+}
+
+.beautiful {
+  background-image: url("/static/images/box.png");
+}
+
+.paradox {
+  background-image: url("/static/images/paradoxline.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+.messy {
+  background-image: url("/static/images/messyline.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }

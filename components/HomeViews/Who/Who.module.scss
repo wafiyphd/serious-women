@@ -5,16 +5,18 @@
 }
 
 .pattern {
+  position: relative;
+  top: 0;
+  left: 0;
   float: right;
   padding: 40px 40px 0 0;
+  z-index: 9999;
 }
 
-.introHeader {
-  font-size: 60pt;
-  font-family: CenturyGothicBold;
-  text-transform: uppercase;
-  line-height: 72pt;
-  color: black;
+.whoImage {
+  position: absolute;
+  right: 0;
+  padding-top: 65px;
 }
 
 .whoHeader {

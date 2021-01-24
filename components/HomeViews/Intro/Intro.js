@@ -19,12 +19,30 @@ const Intro = () => {
           <div className="row justify-content-center text-center pt-5">
             <div className="col-12">
               <p className={styles.introHeader}>
-                Here women are free to be their beautiful, paradoxical, messy
-                selves.
+                Here women are free to be their{" "}
+                <span className={styles.beautiful}>beautiful</span>,{" "}
+                <span className={styles.paradox}>paradoxical</span>,{" "}
+                <span className={styles.messy}>messy</span> selves.
               </p>
             </div>
           </div>
-          <div className="row justify-content-center"></div>
+          <div className="row justify-content-center">
+            <div className={styles.imageDiv}>
+              <Image
+                width={450}
+                height={450}
+                quality={100}
+                src="/static/images/handdown.png"
+                alt="SW Logo"
+                layout="fixed"
+              />
+              <span className={styles.scrollText}>
+                Scroll down.
+                <br />
+                You'll know.
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </>

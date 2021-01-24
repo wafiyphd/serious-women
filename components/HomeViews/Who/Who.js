@@ -15,6 +15,16 @@ const Who = () => {
             layout="fixed"
           />
         </div>
+        <div className={styles.whoImage}>
+          <Image
+            width={536}
+            height={680}
+            quality={100}
+            src="/static/images/whoimage.png"
+            alt="image"
+            layout="fixed"
+          />
+        </div>
         <div className="container pt-5 pb-5">
           <div className="row justify-content-center pt-5 pb-5">
             <div className="col-12">

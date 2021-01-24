@@ -1,7 +1,14 @@
 @import "../../../styles/globals";
 
+@media (max-width: 768px) {
+  .mainContainer img {
+    height: 50% !important;
+    width: 50% !important;
+  }
+}
 .mainContainer {
   background-color: $pink;
+  position: relative;
 }
 
 .contactHeader {
@@ -10,19 +17,50 @@
   line-height: 80pt;
   color: $green;
   text-transform: uppercase;
+  position: relative;
+  z-index: 9999;
 }
 
 .contactSubheader {
+  position: relative;
+  z-index: 9999;
   font-size: 18pt;
   line-height: 32pt;
   font-family: CenturyGothicBold;
   color: white;
 }
 
+.entry-title {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 50%,
+    rgba(22, 160, 133, 1) 50%
+  );
+  background-size: 200%;
+  background-position: 0 0;
+  display: inline;
+  transition: 0.5s ease-in-out;
+  font-family: raleway, arial, sans-serif;
+  text-transform: uppercase;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
 .emailBox {
   color: black;
   background-color: $green;
   padding: 2px 8px;
+  position: relative;
+  z-index: 9999;
+  transition: 0.25s ease-in-out;
+  cursor: pointer;
+  &:hover {
+    color: $pink;
+    background-color: white;
+  }
 }
 
 .findHeader {
@@ -30,7 +68,79 @@
   line-height: 58pt;
   font-family: Abuget;
   color: white;
+  position: relative;
+  z-index: 9999;
 }
 
 .pattern {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-right: 40px;
+  z-index: 9999;
+}
+
+.imageDiv {
+  position: relative;
+  background-color: $pink;
+  z-index: 10;
+}
+
+.imageDiv img {
+  z-index: 20;
+}
+
+.heText {
+  font-family: Abuget;
+  font-size: 130pt;
+  color: white;
+  animation: glow 1s ease-in-out infinite alternate;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  position: absolute;
+  top: 70px;
+  left: 150px;
+  z-index: 11;
+  padding: 0;
+  line-height: 130pt;
+}
+
+.leftGlass {
+  position: absolute;
+  top: 128px;
+  left: 138px;
+  z-index: 10;
+}
+
+.lloText {
+  font-family: Abuget;
+  font-size: 130pt;
+  color: white;
+  animation: glow 1s ease-in-out infinite alternate;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  position: absolute;
+  top: 90px;
+  left: 290px;
+  z-index: 11;
+  padding: 0;
+  line-height: 130pt;
+}
+
+.rightGlass {
+  position: absolute;
+  top: 139px;
+  left: 284px;
+  z-index: 10;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+      0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
 }

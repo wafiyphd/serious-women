@@ -30,6 +30,16 @@ const Story = () => {
                 <span className={styles.buttonText}>Submit</span>
               </div>
             </div>
+            <div className={styles.lipImage}>
+              <Image
+                width={176}
+                height={197}
+                quality={100}
+                src="/static/images/lip.png"
+                alt="lips"
+                layout="fixed"
+              />
+            </div>
           </div>
         </div>
       </div>

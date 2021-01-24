@@ -4,6 +4,8 @@
   background-color: black;
   background-image: url("/static/images/submitpattern.png");
   background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .submitHeader {
@@ -25,11 +27,16 @@
   border: 16px solid $green;
   background-color: black;
   margin: 55px 0;
+  position: relative;
 }
 
 .button {
   position: relative;
   text-align: center;
+  cursor: pointer;
+  &:hover {
+    opacity: 80%;
+  }
 }
 
 .buttonText {
@@ -44,22 +51,11 @@
   cursor: pointer;
 }
 
-.buttonText:hover + .slantButton {
-  transition: 0.2s ease;
-  -webkit-transition: 0.2s ease;
-  -moz-transition: 0.2s ease;
-  -ms-transition: 0.2s ease;
-  transition: 0.2s ease;
-  cursor: pointer;
-  opacity: 80%;
-}
-
-.slantButton:hover {
-  transition: 0.2s ease;
-  -webkit-transition: 0.2s ease;
-  -moz-transition: 0.2s ease;
-  -ms-transition: 0.2s ease;
-  transition: 0.2s ease;
-  cursor: pointer;
-  opacity: 80%;
+.lipImage {
+  position: absolute;
+  z-index: 9999;
+  right: 0;
+  top: 0;
+  padding-top: 18%;
+  padding-right: 5%;
 }

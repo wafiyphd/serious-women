@@ -8,4 +8,7 @@
   color: $green !important;
   font-family: CenturyGothicBold;
   font-size: 10pt;
+  &:hover {
+    color: $pink !important;
+  }
 }
