@@ -11,7 +11,7 @@ const Story = () => {
               <div className="col-12">
                 <p className={styles.submitHeader}>Submit Story</p>
                 <p className={styles.submitSubheader}>
-                  Nominate a friend the world show know about.
+                  Nominate a friend the world should know about.
                 </p>
               </div>
             </div>
