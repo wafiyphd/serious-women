@@ -1,6 +1,5 @@
 import Head from "next/head";
 import NavBar from "../components/NavBar/NavBar";
-import Image from "next/link";
 import Intro from "../components/HomeViews/Intro/Intro";
 import Who from "../components/HomeViews/Who/Who";
 import Story from "../components/HomeViews/Story/Story";

@@ -1,7 +1,5 @@
 import styles from "./NavBar.module.scss";
-import { Navbar, Nav, NavDropdown } from "react-bootstrap";
-import Image from "next/image";
-import Link from "next/link";
+import { Navbar, Nav } from "react-bootstrap";
 
 const MainNav = () => {
   return (
