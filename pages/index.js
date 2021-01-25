@@ -18,20 +18,22 @@ export default function Home() {
 
       <NavBar />
 
-      <div>
-        <Intro />
-      </div>
+      <div className="fadeIn">
+        <div>
+          <Intro />
+        </div>
 
-      <div>
-        <Who />
-      </div>
+        <div>
+          <Who />
+        </div>
 
-      <div>
-        <Story />
-      </div>
+        <div>
+          <Story />
+        </div>
 
-      <div>
-        <Contact />
+        <div>
+          <Contact />
+        </div>
       </div>
     </div>
   );

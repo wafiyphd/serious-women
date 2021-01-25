@@ -37,3 +37,16 @@ $pink: #e51a8c;
   src: url("/static/fonts/Century-Gothic-Bold-Italic.ttf") format("truetype");
   font-display: swap;
 }
+
+.fadeIn {
+  animation: fadeInAnimation 1.5s;
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

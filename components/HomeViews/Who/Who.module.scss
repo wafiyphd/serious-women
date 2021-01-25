@@ -1,5 +1,21 @@
 @import "../../../styles/globals";
 
+@media (max-width: 992px) {
+  .whoImage,
+  .pattern {
+    display: none;
+  }
+
+  .whoSubheader {
+    font-size: 45pt !important;
+    line-height: 48pt !important;
+  }
+
+  .whoContent {
+    font-size: 13pt !important;
+  }
+}
+
 .mainContainer {
   background-color: $blue;
 }

@@ -20,9 +20,21 @@ const Intro = () => {
             <div className="col-12">
               <p className={styles.introHeader}>
                 Here women are free to be their{" "}
-                <span className={styles.beautiful}>beautiful</span>,{" "}
-                <span className={styles.paradox}>paradoxical</span>,{" "}
-                <span className={styles.messy}>messy</span> selves.
+                <span className={styles.beautiful}>
+                  <span className={styles.text}>beautiful</span>
+                  <img src="/static/images/box.png" />
+                </span>
+                ,{" "}
+                <span className={styles.paradox}>
+                  <span className={styles.text}>paradoxical</span>
+                  <img src="/static/images/paradoxline.png" />
+                </span>
+                ,{" "}
+                <span className={styles.messy}>
+                  <span className={styles.text}>messy</span>
+                  <img src="/static/images/messyline.png" />
+                </span>{" "}
+                selves.
               </p>
             </div>
           </div>
@@ -34,7 +46,7 @@ const Intro = () => {
                 quality={100}
                 src="/static/images/handdown.png"
                 alt="SW Logo"
-                layout="fixed"
+                layout="intrinsic"
               />
               <span className={styles.scrollText}>
                 Scroll down.
